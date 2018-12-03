@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	text-align: center;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +65,138 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+
+	width: 900px;
+	margin: 0 auto;
+	
+}
+
+.navigation {
+	
+	width: 100%;
+	left: 10px;
+
+}
+
+.navigation a {
+	padding-right: 50px;
+	text-decoration: none;
+	text-align: left;
+
+}
+
+h1 {
+	font-size: 65px;
+}
+
+button {
+
+	background-color: #e7e7e7; 
+    border: 1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.logo {
+	position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.blockone {
+	display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    padding-top: 130px;
+    font-size: 40px;
+}
+
+.blocktwo {
+	display: inline-block;
+	padding: 50px 0;
+	margin-left: 40px;
+/*    padding: 30px;
+*/    
+}
+
+/*section {
+	width: 100%;
+}*/
+
+
+
+.contact {
+	width: 100%;
+	padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.top-content{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.bottom-content{
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.features {
+	display: inline-block;
+    width: 48%;
+    text-align: left;
+    padding: 20px 0;
+    
+}
+
+.about {
+	display: inline-block;
+    width: 48%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.services {
+	display: inline-block;
+    width: 33%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.product {
+	display: inline-block;
+    width: 33%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.vision {
+	display: inline-block;
+    width: 33%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+
+footer p {
+	display: inline-block;
+    width: 100%;
+    font-weight: 20px;
+    margin-bottom: 70px;
+}
+
+
+
+
